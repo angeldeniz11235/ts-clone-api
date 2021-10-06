@@ -20,3 +20,26 @@ async function run() {
 }
 run().catch(console.dir);
 ****************************************
+// const readline = require('readline').createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+// var uname = "";
+// var uemail = "";
+// readline.question("User Name? ", (name) => {
+//   readline.question("User Email? ", async (email) => {
+//     uname = await name;
+//     uemail = await email
+//     //process.exit();
+//     readline.close();
+//     //process.exit();
+//   });
+
+// // });
+
+// createUser.saveUser("someone", "something").then(() => {
+//   console.log("success!");
+//   setTimeout(process.exit(),1000);
+//   //process.exit()
+// });
+// 
