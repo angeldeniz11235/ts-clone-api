@@ -37,9 +37,14 @@ run().catch(console.dir);
 
 // // });
 
+
+
 // createUser.saveUser("someone", "something").then(() => {
 //   console.log("success!");
 //   setTimeout(process.exit(),1000);
 //   //process.exit()
 // });
 // 
+
+//get docker image up and running detached
+sudo docker run --name=nodejs -p 3000:3000 --network=db_default -d angeld11235/ts-clone-nodejs 
